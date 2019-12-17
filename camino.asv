@@ -1,0 +1,8 @@
+function[sol] = camino(w,u,va,vc,o0,of,do)
+    angs = o0:do:of;
+    for o = angs
+        h = w / sin(o*pi/180);
+        l = h*cos(o*pi/180);
+        
+    end
+end
