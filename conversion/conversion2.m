@@ -49,9 +49,7 @@ function[coords] = conversion2(var1,var2,eps,modo)
           d = 90 - PX*180/pi;
           
           l = acos((cos(pi/2-v2)*sin(e)-sin(pi/2-v2)*cos(e)*cos(v1 - 3*pi/2))/sin(PX))*180/pi;
-          
           coords = [minuto(450 - l) minuto(d)];
        end
     end
-        
 end
