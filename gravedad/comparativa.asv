@@ -1,0 +1,16 @@
+angulos = -90:10:90;
+
+g1 = [];
+g2 = [];
+g3 = [];
+
+
+b = 6356752.3142;
+f = 1/298,257223563
+a = b/(1-f);
+
+cont = 1;
+for a = angulos
+    g1(cont) = f1()
+    cont = cont + 1;
+end
